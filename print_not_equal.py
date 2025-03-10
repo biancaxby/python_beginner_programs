@@ -4,4 +4,8 @@
 num_1 = int(input('Enter a number: '))
 num_2 = int(input('Enter a number: '))
 
-#
+#print "not equal" if both numbers are not equal
+if num_1 > num_2 or num_1 < num_2:
+    print('Not equal')
+
+
