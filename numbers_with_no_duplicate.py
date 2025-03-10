@@ -1,0 +1,1 @@
+#display all numbers that dont have a duplicate

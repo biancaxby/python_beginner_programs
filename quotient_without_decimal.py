@@ -1,0 +1,1 @@
+#2 nums quotient no decimal

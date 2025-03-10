@@ -1,0 +1,1 @@
+#print sum of all the numbers

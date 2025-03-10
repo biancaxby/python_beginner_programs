@@ -1,0 +1,1 @@
+#print all odd numbers form 0-100 using while loop

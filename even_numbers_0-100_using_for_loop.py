@@ -1,0 +1,1 @@
+#print even numbers from 0-100 using for loop

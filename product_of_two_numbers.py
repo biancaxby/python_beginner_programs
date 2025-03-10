@@ -1,0 +1,1 @@
+#print product of two numbers

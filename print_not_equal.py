@@ -1,0 +1,1 @@
+#2 nums print not equal

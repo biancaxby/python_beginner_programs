@@ -1,0 +1,1 @@
+#print numbers from 0-100 except numbers ending in zero
