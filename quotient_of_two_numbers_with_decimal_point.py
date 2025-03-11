@@ -6,4 +6,4 @@ num_2 =float(input('Enter a number: '))
 
 #operation
 quotient = num_1 / num_2 
-print(quotient)
+print(format(quotient, '.2f'))
