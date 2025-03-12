@@ -1,14 +1,16 @@
 #display all numbers that dont have a duplicate
 
-def no_duplicate():
-    for i in range(3):
-        num = int(input('Enter a number: '))
-        if num  !=num:
-            print(num)
+num = 0
+while num <= 10:
+    num = int(input('Enter a number: '))
+    if num == num:
+        num.remove(num)
+        
+    if num != num:
+        print(num)
+        break
 
-
-
-no_duplicate()
+    
 
 
 
