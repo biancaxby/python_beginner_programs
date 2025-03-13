@@ -5,15 +5,16 @@
 num_1 = int(input('Enter a number: '))
 num_2 = int(input('Enter a number: '))
 
-while True:
-    if num_1 < num_2:
-        for i in range(num_1 - num_2):
-            num_1 += 1 
-            if num_1 >= num_2:
-                break
-    if num_1 > num_2:
-        num_1 -= num_2
-        if num_1 <= num_2:
-            break
+number_between = []
+if num_1 < num_2:
+    for i in range(num_1 + 1, num_2):
+            number_between.append(num_1)
+elif num_1 > num_2:
+    for i in range(num_1 - 1, num_2, -1):       # reversed the order
+            number_between.append(num_1)
+    else:
+        print('The numbers are equal.')
 
-print(num_1)
+print(number_between)
+            
+
