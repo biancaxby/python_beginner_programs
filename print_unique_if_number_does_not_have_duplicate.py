@@ -8,12 +8,19 @@ no_duplicate = []
 while True:
     try:
         user_input = int(input('Enter a number: '))
-        no_duplicate.append(user_input)
+        if user_input in no_duplicate:
+                no_duplicate.remove(user_input)
+                if user_input not in duplicate:
+                     duplicate.append(user_input)
+            
+        if user_input not in duplicate:
+            no_duplicate.append(user_input)
+            
+       
     except ValueError:
+        print('Oops! Invalid number.')
         break
 
-if user_input in no_duplicate:
-    duplicate.append(no_duplicate)
     
 print(f'These numbers are unique! {no_duplicate}')
         
