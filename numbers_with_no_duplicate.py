@@ -1,19 +1,13 @@
 #display all numbers that dont have a duplicate
+users = []
 
-num = 0
-while num <= 10:
-    num = int(input('Enter a number: '))
-    if num == num:
-        num.remove(num)
+for i in range(5):
+    user = input("enter: ")
+    if user in users:
+        user.append(users)
+   
+    if user in users is > 1:
+        users.clear()
+
+print(users)
         
-    if num != num:
-        print(num)
-        break
-
-    
-
-
-
-
-
-
