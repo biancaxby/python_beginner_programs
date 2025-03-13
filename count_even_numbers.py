@@ -9,4 +9,4 @@ for i in range(10):
     if i % 2 != 0:
         even_count += 1 
 
-print(f' You have entered {even_count} odd numbers')
+print(f'You have entered {even_count} odd numbers')
