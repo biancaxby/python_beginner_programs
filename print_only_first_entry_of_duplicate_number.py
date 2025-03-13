@@ -1,13 +1,19 @@
 #display all numbers but for numbers with duplicates, only the first entry should be printed
 
 users = []
-
+users_2 = []
 for i in range (5):
-    user_input = input('Enter a number: ')
-    users.append(user_input)
+    user_input = int(input('Enter a number: '))
+    if user_input in users:
+        users_2.append(user_input)
+    else:
+        users.append(user_input)
+     
 
-new_list = [num for num in users if users.count < 1]
 
-print(new_list)
+
+
+
+print(users)
 
 
