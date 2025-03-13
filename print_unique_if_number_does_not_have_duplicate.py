@@ -2,7 +2,6 @@
 # count numbers
 # separate numbers with duplicates and those without 
 
-
 duplicate = []
 no_duplicate = []
 while True:
@@ -16,15 +15,8 @@ while True:
         if user_input not in duplicate:
             no_duplicate.append(user_input)
             
-       
     except ValueError:
         print('Oops! Invalid number.')
         break
-
     
 print(f'These numbers are unique! {no_duplicate}')
-        
-
-
-
-  

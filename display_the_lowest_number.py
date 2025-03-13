@@ -14,5 +14,4 @@ while True:
         print('Error. Invalid input')   
         break
         
-
 print('The lowest number is', number_list[0])

@@ -11,5 +11,4 @@ sums =  i + numbers
   
 difference =  sums - num_1
 
-
 print(difference)

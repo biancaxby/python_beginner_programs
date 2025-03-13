@@ -1,6 +1,5 @@
 #display all numbers but for numbers with duplicates, only the first entry should be printed
 
-
 # add two list
 users = []
 users_2 = []
@@ -15,7 +14,6 @@ for i in range (10):
     else:
         users.append(user_input)
     
-
 print(users)
 
 

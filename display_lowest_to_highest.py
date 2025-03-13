@@ -12,5 +12,4 @@ while True:
         print('Error. Invalid input')   
         break
         
-
 print(number_list)
